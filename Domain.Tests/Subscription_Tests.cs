@@ -16,7 +16,7 @@ namespace Domain.Tests
 
             var sub = Subscription.Create(plan, start);
 
-            Assert.True(sub.IsActive(now));
+            Assert.True(sub.IsActive());
         }
 
         [Fact]
@@ -28,7 +28,7 @@ namespace Domain.Tests
 
             var sub = Subscription.Create(plan, start);
 
-            Assert.False(sub.IsActive(now));
+            Assert.False(sub.IsActive());
         }
 
         [Fact]
@@ -69,7 +69,7 @@ namespace Domain.Tests
 
             Assert.Equal(annual, changed.Plan);
             Assert.Equal(now.Add(annual.Duration), changed.End);
-            Assert.True(changed.IsActive(now));
+            Assert.True(sub.IsActive());
         }
     }
 }
