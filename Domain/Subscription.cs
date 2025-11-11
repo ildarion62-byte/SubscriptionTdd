@@ -21,7 +21,9 @@ namespace Domain
             return new Subscription(plan, startUtc, end);
         }
 
-        public bool IsActive(DateTime nowUtc) => nowUtc >= Start && nowUtc < End;
+        public bool IsActive()
+        => DateTime.UtcNow >= Start && DateTime.UtcNow < End;
+
 
         public Subscription Renew(DateTime nowUtc)
         {
