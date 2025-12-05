@@ -14,8 +14,8 @@ namespace Domain
         }
 
         public static Plan Weekly() => new("Weekly", TimeSpan.FromDays(7));
-        public static Plan Monthly() => new("Monthly", TimeSpan.FromDays(30)); // спрощено
-        public static Plan Annual() => new("Annual", TimeSpan.FromDays(365)); // спрощено
+        public static Plan Monthly() => new("Monthly", TimeSpan.FromDays(30)); 
+        public static Plan Annual() => new("Annual", TimeSpan.FromDays(365)); 
 
         public bool Equals(Plan? other)
             => other is not null && Name == other.Name && Duration == other.Duration;
