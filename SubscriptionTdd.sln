@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Tests", "Domain.Tests\Domain.Tests.csproj", "{751B041B-65DD-4AF3-B774-16D1EF47904A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubscriptionDemo", "SubscriptionDemo\SubscriptionDemo.csproj", "{92B9CD43-5E2D-43A9-9DD2-56FEED6824D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,8 +43,23 @@ Global
 		{751B041B-65DD-4AF3-B774-16D1EF47904A}.Release|x64.Build.0 = Release|Any CPU
 		{751B041B-65DD-4AF3-B774-16D1EF47904A}.Release|x86.ActiveCfg = Release|Any CPU
 		{751B041B-65DD-4AF3-B774-16D1EF47904A}.Release|x86.Build.0 = Release|Any CPU
+		{92B9CD43-5E2D-43A9-9DD2-56FEED6824D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92B9CD43-5E2D-43A9-9DD2-56FEED6824D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92B9CD43-5E2D-43A9-9DD2-56FEED6824D4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{92B9CD43-5E2D-43A9-9DD2-56FEED6824D4}.Debug|x64.Build.0 = Debug|Any CPU
+		{92B9CD43-5E2D-43A9-9DD2-56FEED6824D4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{92B9CD43-5E2D-43A9-9DD2-56FEED6824D4}.Debug|x86.Build.0 = Debug|Any CPU
+		{92B9CD43-5E2D-43A9-9DD2-56FEED6824D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92B9CD43-5E2D-43A9-9DD2-56FEED6824D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92B9CD43-5E2D-43A9-9DD2-56FEED6824D4}.Release|x64.ActiveCfg = Release|Any CPU
+		{92B9CD43-5E2D-43A9-9DD2-56FEED6824D4}.Release|x64.Build.0 = Release|Any CPU
+		{92B9CD43-5E2D-43A9-9DD2-56FEED6824D4}.Release|x86.ActiveCfg = Release|Any CPU
+		{92B9CD43-5E2D-43A9-9DD2-56FEED6824D4}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96983603-A785-4D0B-B5CF-BC71C166C580}
 	EndGlobalSection
 EndGlobal
